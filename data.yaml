@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Auto', 'Pedestrian']
+
+roboflow:
+  workspace: project1-wqjnw
+  project: pedestrian-and-auto
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project1-wqjnw/pedestrian-and-auto/dataset/2
